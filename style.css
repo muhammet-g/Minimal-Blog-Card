@@ -1,0 +1,102 @@
+/* 
+color:#883AE1;
+color:#E6D6FC;
+color:#E5EAF0;
+color:#FAFAF9;
+color:#FFFFFF;
+color:#20293A;
+color:#6C727F;
+
+Typographies
+Sora | Title
+18px | 1.125rem
+https://fonts.google.com/specimen/Sora?query=sora
+Sora | Body
+14px | 0.875rem
+https://fonts.google.com/specimen/Sora?query=sora
+Sora | Small Text
+12px | 0.75rem
+https://fonts.google.com/specimen/Sora?query=sora
+Sora | Tag
+10px | 0.625rem
+https://fonts.google.com/specimen/Sora?query=sora
+
+*/
+
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  border-radius: 8px;
+  padding: 16px;
+  padding-bottom: 0;
+  max-width: 336px;
+}
+.img {
+  text-align: center;
+}
+.img img{
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  height: 157px;
+}
+
+.text h1{
+  font-size: 18px;
+  color: #20293A;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.text .p1 {
+  background-color: #E6D6FC;
+  background-color: #E6D6FC;
+  color: #883AE1;
+  font-size: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+  line-height: 24px;
+  width: 60px;
+  text-align: center;
+  border-radius: 15px;
+}
+.text .p2 {
+  font-size: 14px;
+  color: #6C727F;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+.text .p3 {
+  padding: 20px 4px;
+  font-size: 12px;
+  position: relative;
+  color: #6C727F;
+}
+.text .p3:after {
+  content:"";
+  background-color: #E5EAF0;
+  height: 2px;
+  width: calc(100% + 32px);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
